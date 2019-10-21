@@ -1,0 +1,8 @@
+# Vim swap file.
+*.swp
+
+# For security reason
+socket_info.txt
+
+# Un-needed file
+webxiot/
