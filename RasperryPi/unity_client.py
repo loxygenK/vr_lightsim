@@ -9,7 +9,7 @@ buffer_size = 1024
 
 def LightUp():
 
-    with open("socket_info.txt", mode="r") as f:
+    with open("../socket_info.txt", mode="r") as f:
         raw_socket_info = f.readlines()
 
     host = raw_socket_info[0].replace("\n","")
